@@ -1,0 +1,31 @@
+section {
+    background-color: rgb(26, 188, 156);
+    height: 100vh;
+}
+
+h2{
+    font-weight: 700;
+}
+
+.styling::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 4px;
+    background-color: white;
+    top: 50%;
+    left: 38%;
+}
+
+
+
+.styling::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 4px;
+    background-color: white;
+    right:38%;
+    top: 50%;
+
+}

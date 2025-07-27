@@ -1,0 +1,34 @@
+section{
+    background-color: #1ABC9C;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+h2{
+    font-weight: 700;
+}
+
+.styling::after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 4px;
+    background-color: white;
+    top: 50%;
+    left: 25px;
+}
+
+
+
+.styling::before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 4px;
+    background-color: white;
+    right:25px;
+    top: 50%;
+
+}

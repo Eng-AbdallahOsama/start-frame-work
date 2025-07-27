@@ -1,0 +1,49 @@
+
+
+h2{
+    font-weight: 700;
+    color: #2C3E50;
+}
+
+.styling::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 4px;
+    background-color:#2C3E50;
+    top: 50%;
+    left: 38%;
+}
+
+
+
+.styling::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 4px;
+    background-color: #2C3E50;
+    right:38%;
+    top: 50%;
+
+}
+
+.card {
+    position: relative;
+}
+
+.layer {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1ABC9C;
+    opacity: 0;
+    transition: all 0.3s ;
+}
+
+.card:hover .layer {
+    opacity: 0.9;
+}

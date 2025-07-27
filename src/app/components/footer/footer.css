@@ -1,0 +1,20 @@
+footer {
+    background-color: #2C3E50;
+    padding: 80px;
+    color: white;
+}
+
+footer ul li {
+
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: white solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lower-footer {
+    background-color: #1A252F;
+}
